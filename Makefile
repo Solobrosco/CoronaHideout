@@ -10,7 +10,7 @@ ODIR = obj
 SDIR = src
 
 # Executable Name
-PROGRAM = app
+PROGRAM = prog
 
 ################################################################################################################################
 
@@ -22,3 +22,7 @@ $(PROGRAM): $(SRC_FILES)
 
 clean:
 	$(RM) $(BDIR)/*
+
+run : $(PROGRAM)
+	$(clean)
+	./$(BDIR)/$^
