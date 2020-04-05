@@ -4,8 +4,10 @@
 class Verse{
 protected: 
     int size;
+    Verse();
 public:
-
+    Verse(int);   
+    ~Verse();
 }
 
 int main(){
