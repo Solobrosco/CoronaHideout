@@ -1,4 +1,5 @@
-#include <olcPixelGameEngine.h>
+// #include <olcPixelGameEngine.h>
+#include <GlutApp.h>
 #include <iostream>
 
 class Verse{
@@ -8,7 +9,7 @@ protected:
 public:
     Verse(int);   
     ~Verse();
-}
+};
 
 int main(){
     std::cout << "Generation test" << std::endl;
